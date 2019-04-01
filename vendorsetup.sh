@@ -1,2 +1,1 @@
-add_lunch_combo lineage_trlte-userdebug
-
+add_lunch_combo aicp_trlte-userdebug
