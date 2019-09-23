@@ -15,3 +15,8 @@
 
 PRODUCT_MAKEFILES := \
 $(LOCAL_DIR)/aosp_trlte.mk
+
+COMMON_LUNCH_CHOICES := \
+    aosp_trlte-user \
+    aosp_trlte-userdebug \
+    aosp_trlte-eng
