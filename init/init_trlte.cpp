@@ -66,10 +66,6 @@ void cdma_properties(char const *operator_alpha,
 
 void init_target_properties()
 {
-    std::string platform = GetProperty("ro.board.platform", "");
-    if (platform != ANDROID_TARGET)
-        return;
-
     std::string bootloader = GetProperty("ro.bootloader", "");
 
     if (bootloader.find("N910F") == 0) {
