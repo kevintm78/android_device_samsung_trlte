@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-$(LOCAL_DIR)/lineage_trlte.mk
+$(LOCAL_DIR)/aosip_trlte.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_trlte-user \
-    lineage_trlte-userdebug \
-    lineage_trlte-eng
+    aosip_trlte-user \
+    aosip_trlte-userdebug \
+    aosip_trlte-eng
